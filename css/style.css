@@ -1,0 +1,224 @@
+@font-face {
+  font-family: Quite Chocolatey;
+  src: url("../fonts/Quite Chocolatey.ttf")
+}
+@font-face {
+  font-family: Montserrat-Ace Bold;
+  src: url("../fonts/Montserrat-Ace-Bold.otf");
+}
+@font-face {
+  font-family: Montserrat-Ace Regular;
+  src: url("../fonts/Montserrat-Ace-Regular.otf");
+}
+@font-face {
+  font-family: PTSerif;
+  src: url("../fonts/PT_Serif-Web-Regular.ttf");
+}
+@font-face {
+  font-family: 'couture-bold';
+  src: url('../fonts/couture-bld.otf');
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.red__header {
+  background-image: url("../img/Layer13.png");
+  background-size: cover;
+  height: 687px;
+}
+.text_red_header {
+  margin-left: 84px;
+  margin-right: 105px;
+}
+.upper__header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo1 {
+  font-size: 60px;
+  font-family: Quite Chocolatey;
+  color: rgb(255, 255, 255);
+  padding-top: 8px;
+}
+.buttons {
+  padding-top: 35px;
+}
+.button {
+  font-size: 18px;
+  font-family: "Montserrat-Ace Regular";
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px 15px;
+  margin-top: 60px;
+}
+.button:hover {
+  background-color: #130e27;
+  border-radius: 7px;
+}
+.text_head_begin {
+  font-size: 90px;
+  font-family: "Montserrat-Ace Bold";
+  text-transform: uppercase;
+  padding-top: 120px;
+  padding-bottom: 45px;
+}
+.head__begin {
+  color: rgb(19, 14, 39);
+}
+.head_end {
+  color: rgb(255, 255, 255);
+}
+.head__text {
+  max-width: 500px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: PTSerif;
+}
+.services {
+  padding-bottom: 72px;
+}
+.serv__header {
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'couture-bold';
+  font-size: 40px;
+}
+.serv__slog1 {
+  color: #c62314;
+  padding-right: 10px;
+  margin-left: 84px;
+}
+.serv__slog2 {
+  color: #130e27;
+  padding-left: 10px;
+}
+.ideas {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 84px;
+  margin-right: 105px;
+  color: #130e27;
+  text-align: center;
+}
+.idea {
+  font-size: 20px;
+  font-family: "PT Serif";
+  max-width: 165px;
+}
+.fa {
+  font-size: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.our__story {
+  display: flex;
+  justify-content: space-between;
+  background-color: #130e27;
+  height: 120px;
+  padding-top: 35px;
+}
+.text__story {
+  margin-left: 105px;
+  font-family: "PT Serif";
+  font-size: 20px;
+  color: #fff;
+  max-width: 600px;
+}
+.button__story {
+  margin-right: 105px;
+  font-family: "Montserrat-Ace Regular";
+  font-size: 22px;
+  text-align: center;
+  width: 270px;
+  height: 65px;
+  background-color: #c62314;
+  border-radius: 7px;
+  padding: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.pricing {
+  background-color: #efefef;
+  padding-top: 65px;
+  padding-bottom: 60px;
+}
+.pr__header {
+  color: #130e27;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Montserrat-Ace Bold";
+  text-transform: uppercase;
+  margin: 0 0 60px 0;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-right: 105px;
+}
+.starter {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 36px 55px 20px 55px;
+  border-radius: 7px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.main_pr {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: #161616;
+  line-height: 30px;
+}
+.pay_pr {
+  font-size: 60px;
+  font-family: "Montserrat-Ace Bold";
+  text-transform: uppercase;
+  color: #c62314;
+}
+.sign {
+  background-color: #130e27;
+  padding: 10px 50px;
+  border-radius: 7px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+.sign:hover {
+  background-color: #c62314;
+}
+.ending {
+  display: flex;
+  justify-content: space-between;
+  height: 130px;
+  background-color: #130e27;
+  padding-top: 20px;
+}
+.text__ending {
+  display: flex;
+  margin-left: 85px;
+  font-size: 20px;
+  font-family: "PT Serif";
+  padding-top: 35px;
+}
+.normal__ending {
+  color: #fff;
+  padding-right: 5px;
+}
+.red__ending {
+  color: #c62314;
+}
+.logo2 {
+  font-size: 60px;
+  font-family: Quite Chocolatey;
+  color: #c62314;
+  padding-top: 8px;
+  margin-right: 105px;
+}
